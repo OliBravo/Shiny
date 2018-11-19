@@ -1,0 +1,19 @@
+1. ekran 0: logowanie
+
+2. ekran 1:
+  2.1. lista projektów (w zależności od uprawnień) - użytkownik z rolą inną niż admin widzi tylko projekty, w których uczestniczy;
+      admin widzi wszystkie projekty.
+  2.2. przysicki: 1. edytuj/przeglądaj projekt, 2. dodaj nowy projekt, 3. usuń projekt
+      przyciski dodaj/usuń projekt są aktywne tylko dla admina;
+      przycisk edytuj/przeglądaj powoduje przejście do odpowiedniego ekranu.
+
+3. ekran edytowania/przeglądania projektu:
+  w zależności od roli rózne widoki
+  3.1. Lista wszystkich użytkowników zaangażowanych w projekt
+  3.2. przysicki: 1. dodaj nowego członka do zespołu, 2. usuń członka z projektu - aktywne tylko dla managera
+  3.3. lista zdefiniowanych zadań dla poszczególnych użytkowników
+      3.3.1. przy każdym zadaniu przycisk umożliwiający edycję/podgląd zadania w zależności od roli: manager ma pełną kontrolę, tj. może
+      dowolnie edytować wszystkie zadania; poza managerem i adminem każda inna rola może jedynie edytować zadania,
+      których jest właścicielem.
+      3.3.2. przy każdym zadaniu przycisk umożliwiający usunięcie zadania - aktywny tylko dla managera.
+  

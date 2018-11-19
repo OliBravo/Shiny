@@ -1,0 +1,95 @@
+html, body {
+  
+}
+
+
+#login-failed {
+  top: 50%;
+  left: 0;
+  display: none;
+  background: #f5c6c6;
+  font-size: 0.9em;
+}
+
+
+#login-container {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -100px;
+  /*border: solid 1px black;
+  height: 50%;*/
+}
+
+
+#succ_login {
+  /* width: 15%;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white;
+  background: gray;
+  border: solid 1px black;
+  display: inline;
+}
+
+#logout {
+  position: relative;
+  top: 0;
+  right: 0;
+  display: inline;
+}
+
+.log-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 50px;
+  font-size: 0.8em;
+}
+
+.col-sm-4{
+  width: 20%;
+}
+
+
+.recordset-nav {
+  font-size: 0.8em;
+  padding-top: 10px;
+  border-top: solid 1px #d2d2d2;
+  
+}
+
+.recordset-nav button {
+  border-radius: 0;
+  font-size: 0.9em;
+  width: 80px;
+}
+
+.recordset-nav span {
+  margin: 0 10px;
+}
+
+
+p {
+  border: solid 1px #d2d2d2;
+  border-radius: 4px;
+  background: #fdfdfd;
+  box-shadow: 1px 1px 3px gray;
+  padding: 5px;
+  color: cadetblue;
+}
+
+tbody {
+  background: antiquewhite;
+  box-shadow: 0 0 3px 3px lightgray;
+}
+
+tbody tr td:nth-child(2) {
+  font-family: courier;
+  background: white;
+}
+
+table thead {
+  display: none;
+}
