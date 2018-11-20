@@ -91,7 +91,7 @@ server <- function(input, output, session) {
         target = links()$target,
         value = links()$value,
         
-        hoverinfo = "skip"
+        hoverinfo = "skip" # hoverinfo is not working properly - "skip" or "none" setting is not honored; this is an issue on plotly github repository.
       )
     )
     
