@@ -89,7 +89,9 @@ server <- function(input, output, session) {
       link = list(
         source = links()$source,
         target = links()$target,
-        value = links()$value
+        value = links()$value,
+        
+        hoverinfo = "skip"
       )
     )
     
